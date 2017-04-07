@@ -30,6 +30,7 @@
             .review {
                 display: flex;
                 flex-direction: row;
+                position: relative;
             }
 
             .review-photo {
@@ -49,6 +50,18 @@
             .review-author-name {
                 margin: 0;
             }
+            .review-text::before {
+                content:"”";
+                font-size:72pt;
+                font-family: 'Arial Bold MT';
+                font-weight: 800;
+                position: absolute;
+               right: 60%;
+                font-style: none;
+                top: -7%;
+                
+            }
+          
         </style>
     </head>
 
